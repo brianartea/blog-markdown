@@ -22,6 +22,9 @@ export default function PostPage({
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
       </div>
+      <Link href="/">
+        <a className="btn btn-back">Go Back</a>
+      </Link>
     </>
   );
 }
